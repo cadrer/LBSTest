@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
 //            currentPosition.append("市：").append(location.getCity()).append("\n");
 //            currentPosition.append("区：").append(location.getDistrict()).append("\n");
 //            currentPosition.append("街道：").append(location.getStreet()).append("\n");
-//            currentPosition.append("定位方式：");
+           currentPosition.append("定位方式：");
            if (location.getLocType() == BDLocation.TypeGpsLocation) {
                 currentPosition.append("GPS");
            } else if (location.getLocType() == BDLocation.TypeNetWorkLocation) {
